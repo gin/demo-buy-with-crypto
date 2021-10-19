@@ -2,7 +2,10 @@
 
 1. Allowlist the hosted domain at Coinbase Commerce: https://commerce.coinbase.com/dashboard/settings
 2. Create a Checkout (to get the URL slug)
-3. Copy and paste the URL slug to the <CoinbaseCommerceButton>'s `checkoutId` value
+3. Copy and paste the URL slug to the <CoinbaseCommerceButton>'s `checkoutId` value  
+For example for the Checkout link https://commerce.coinbase.com/checkout/98f30752-ddde-47a0-a398-c8727d726653  
+the button would be:
+`<CoinbaseCommerceButton checkoutId={'98f30752-ddde-47a0-a398-c8727d726653'}/>`
 4. Deploy, and expect to see the button. When clicked, expect side panel opens
    with Checkout's product.
 
