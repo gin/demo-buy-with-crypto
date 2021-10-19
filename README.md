@@ -1,3 +1,12 @@
+# Demo of "Buy with crypto" button in-app
+
+1. Allowlist the hosted domain at Coinbase Commerce: https://commerce.coinbase.com/dashboard/settings
+2. Create a Checkout (to get the URL slug)
+3. Copy and paste the URL slug to the <CoinbaseCommerceButton>'s `checkoutId` value
+4. Deploy, and expect to see the button. When clicked, expect side panel opens
+   with Checkout's product.
+
+----
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

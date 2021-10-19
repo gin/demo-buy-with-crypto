@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+import CoinbaseCommerceButton from 'react-coinbase-commerce';
+import 'react-coinbase-commerce/dist/coinbase-commerce-button.css'
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Demo. Click on the button to see panel to pay for the product set in Coinbase Commerce.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <CoinbaseCommerceButton checkoutId={'98f30752-ddde-47a0-a398-c8727d726653'}/>
       </header>
     </div>
   );
